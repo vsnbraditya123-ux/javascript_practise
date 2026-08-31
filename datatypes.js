@@ -40,3 +40,15 @@ const myFunction= function(){
 }
 
 console.log(typeof myFunction);
+
+
+
+
+// Stack, Heap
+
+let myVariable=10
+
+let anotherVariable=myVariable
+console.log({myVariable,anotherVariable});
+anotherVariable=20
+console.log({myVariable,anotherVariable});
