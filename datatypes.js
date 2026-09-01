@@ -52,3 +52,27 @@ let anotherVariable=myVariable
 console.log({myVariable,anotherVariable});
 anotherVariable=20
 console.log({myVariable,anotherVariable});
+
+let user1= {
+    name :'Aditya',
+    upi :'user123@ybl'
+}
+console.log(user1);
+
+let name1='Aditya Vardhan'
+let place='Hyderabad'
+
+console.log(`My name is ${name1} and I live in "${place}"`);
+
+const myname= String("Aditya-vardhan")
+
+console.log(myname[0]);
+console.log(myname.length);
+console.log(myname.toUpperCase());
+// console.log(myname.__proto__);
+console.log(myname.toLowerCase());
+console.log(myname.trim(2,5));
+console.log(myname.split(" "));
+
+const newstring=myname.substring(0,3)
+console.log(newstring);
